@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamX - Your Favorite Streaming Hub</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <nav class="fixed top-0 left-0 w-full bg-gray-800 flex justify-between items-center p-6 z-50">
+        <h1 class="text-2xl font-bold">StreamX</h1>
+        <ul class="flex space-x-6">
+            <li><a href="#" class="hover:text-gray-400">Movies</a></li>
+            <li><a href="#" class="hover:text-gray-400">TV Shows</a></li>
+            <li class="relative group">
+                <a href="#" class="hover:text-gray-400">Categories</a>
+                <ul class="absolute left-0 mt-2 hidden w-48 bg-gray-800 text-white rounded shadow-lg group-hover:block">
+                    <li class="px-4 py-2 hover:bg-gray-700"><a href="#">Home</a></li>
+                    <li class="px-4 py-2 hover:bg-gray-700"><a href="#">My List</a></li>
+                    <li class="px-4 py-2 hover:bg-gray-700"><a href="#">Available for Download</a></li>
+                    <li class="px-4 py-2 hover:bg-gray-700"><a href="#">Hindi</a></li>
+                    <li class="px-4 py-2 hover:bg-gray-700"><a href="#">Tamil</a></li>
+                    <li class="px-4 py-2 hover:bg-gray-700"><a href="#">English</a></li>
+                    <li class="px-4 py-2 hover:bg-gray-700"><a href="#">Action</a></li>
+                    <li class="px-4 py-2 hover:bg-gray-700"><a href="#">Sport</a></li>
+                    <li class="px-4 py-2 hover:bg-gray-700"><a href="#">Drama</a></li>
+                    <li class="px-4 py-2 hover:bg-gray-700"><a href="#">Horror</a></li>
+                    <li class="px-4 py-2 hover:bg-gray-700"><a href="#">Sci-Fi</a></li>
+                </ul>
+            </li>
+        </ul>
+        <button class="bg-red-600 hover:bg-red-400 px-4 py-2 rounded">Sign In</button>
+    </nav>
+    
+    <section class="relative h-screen flex flex-col justify-center items-center text-center bg-cover bg-center" style="background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjE1bHhkZm00enp4emYwOG5yNDh3dnh6bzF5OW5oaDFwam40NmRqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jy556kAY2XYhG/giphy.gif);">
+        <h2 class="text-4xl font-bold mb-4">Unlimited Streaming, Anytime, Anywhere</h2>
+        <p class="text-lg mb-6">Watch your favorite movies and shows with no ads.</p>
+        <button class="bg-red-600 hover:bg-red-400 px-6 py-3 rounded text-lg">Start Watching</button>
+    </section>
+    
+    <section class="p-6">
+        <h3 class="text-2xl font-semibold mb-4">Trending Now</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-gray-700 p-4 rounded text-center">
+                <img src="Deva.jpg" alt="Deva" class="w-full h-64 object-cover rounded">
+                <h4 class="mt-2 font-bold">Deva</h4>
+                <p class="text-gray-300">⭐ 4.5/5</p>
+            </div>
+            <div class="bg-gray-700 p-4 rounded text-center">
+                <img src="airforce.jpg" alt="Airforce" class="w-full h-64 object-cover rounded">
+                <h4 class="mt-2 font-bold">Sky Force</h4>
+                <p class="text-gray-300">⭐ 4.3/5</p>
+            </div>
+            <div class="bg-gray-700 p-4 rounded text-center">
+                <img src="mufasa.jpg" alt="Mufasa" class="w-full h-64 object-cover rounded">
+                <h4 class="mt-2 font-bold">Mufasa: The Lion King</h4>
+                <p class="text-gray-300">⭐ 4.7/5</p>
+            </div>
+            <div class="bg-gray-700 p-4 rounded text-center">
+                <img src="emergency.jpg" alt="Emergency" class="w-full h-64 object-cover rounded">
+                <h4 class="mt-2 font-bold">Emergency</h4>
+                <p class="text-gray-300">⭐ 4.6/5</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center p-10 bg-gray-800">
+        <h3 class="text-3xl font-bold mb-4">Join Today</h3>
+        <p class="text-lg mb-6">Sign up now and get 7 days free.</p>
+        <button class="bg-red-600 hover:bg-red-400 px-6 py-3 rounded text-lg">Get Started</button>
+    </section>
+</body>
+</html>
